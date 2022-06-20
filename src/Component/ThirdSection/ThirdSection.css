@@ -1,0 +1,111 @@
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+.thirdSection-outer-wrapper {
+  margin-top: 20px;
+  padding: 10px;
+  height: 800px;
+  width: 100vm;
+  padding-bottom: 30px;
+  border-bottom: 10px solid #222222;
+  background-color: black;
+  color: white;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.questions-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.thirdSection-inner-wrapper {
+  text-align: left;
+  padding-left: 20px;
+  width: 500px;
+  height: 70px;
+  background-color: gray;
+  color: white;
+}
+
+.third-button {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 50px;
+}
+.answerHolder {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 20px;
+  text-align: left;
+  margin-left: 460px;
+  width: 500px;
+  height: auto;
+  background-color: gray;
+  border-block: #222222;
+  color: white;
+  padding: 20px;
+}
+.enterEmail {
+  width: 450px;
+  height: 50px;
+}
+.GetStart {
+  width: 200px;
+  background-color: red;
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  border: none;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 400px;
+  text-align: center;
+  line-height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .third-button {
+    text-align: center;
+    line-height: 20px;
+  }
+  .enterEmail {
+    width: 50%;
+  }
+  .GetStart {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+  .paragraph {
+    font-size: 1rem;
+    font-weight: 200px;
+
+    line-height: 20px;
+  }
+  .answerHolder {
+    width: auto !important;
+    height: auto !important;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+}

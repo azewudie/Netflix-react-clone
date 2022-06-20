@@ -1,0 +1,86 @@
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+.Footer-wrapper {
+  margin-top: 20px;
+  padding: 10px;
+  height: 500px;
+  width: 100vm;
+  padding-bottom: 30px;
+  border-bottom: 10px solid #222222;
+  background-color: black;
+  color: white;
+}
+.Footer-wrapper p {
+  display: flex;
+  margin-left: 400px;
+  justify-content: centers;
+  text-align: center;
+  line-height: 40px;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+}
+.footer-internal-wrapper {
+  margin-left: 300px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: left;
+  width: 900px;
+  text-align: left;
+}
+.footer-list {
+  display: flex !important;
+  justify-content: space-between !important;
+  justify-content: left !important;
+  text-align: center !important;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.footer-list li {
+  display: flex !important;
+  justify-content: space-between !important;
+  justify-content: left !important;
+  height: 40px;
+  width: 250px;
+  text-align: left;
+  line-height: 40px;
+  list-style: none;
+  text-decoration: none;
+
+  text-align: center;
+}
+
+.footer-list li a {
+  color: white;
+  text-decoration: none;
+  text-align: left;
+}
+.footerOption {
+  /* right: 150px; */
+  width: auto;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  width: 100rem !important;
+  height: 50px !important;
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-internal-wrapper {
+    margin-left: 0;
+  }
+  .Footer-wrapper p {
+    margin-left: 0;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 200;
+  }
+  .footerOption {
+    margin-left: 0;
+  }
+}
